@@ -1,59 +1,79 @@
-# SiteEcomerc
+# SiteEcomerc – Fruits & Légumes
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+Ce projet est une application Angular développée dans le cadre du Master SNIA (Semestre 2), pour le module Architecture Multiniveaux.  
+Il s'agit d'un site e-Commerce (frontend uniquement) permettant de visualiser et acheter des fruits et légumes frais.
 
-## Development server
+## Description du projet
 
-To start a local development server, run:
+L'application présente une interface utilisateur moderne pour un magasin en ligne spécialisé dans la vente de fruits et légumes.  
+Elle a été conçue selon une architecture client riche, en utilisant Angular 19. Ce projet se concentre uniquement sur la partie front-end, sans intégration backend.
+
+## Contexte académique
+
+- Formation : Master Sciences du Numérique et Intelligence Artificielle (SNIA) 2025 
+- Module : Architecture Multiniveaux
+- Semestre : S2
+- Établissement : Université Mohammed V - Faculté des Sciences de Rabat
+
+## Installation et exécution
+
+1. Installer les dépendances :
+```bash
+npm install
+````
+
+2. Lancer le serveur de développement :
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Puis ouvrir le navigateur à l'adresse :
 
-## Code scaffolding
+```
+http://localhost:4200/
+```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Commandes utiles Angular
+
+* Générer un composant :
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+* Compiler le projet :
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+* Lancer les tests unitaires :
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## Technologies utilisées
 
-For end-to-end (e2e) testing, run:
+* Angular CLI v19
+* TypeScript
+* HTML5 / CSS3
 
-```bash
-ng e2e
-```
+## Fonctionnalités principales
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+* Affichage dynamique des produits (fruits et légumes)
+* Gestion du panier avec stockage local
+* Navigation par catégories
+* Composants Angular modulaires et réutilisables
 
-## Additional Resources
+## Auteur
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Youssef Ait Moulay Erradi
+Étudiant en Master SNIA – Université Mohammed V, Rabat
+Email : [aitmoulayerradiyoussef02@gmail.com]
+
+## Licence
+
+Ce projet est destiné à un usage académique uniquement.
+
